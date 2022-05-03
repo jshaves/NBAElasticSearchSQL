@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+    </head>
+    <body>
+    <style>
+    body {
+      background-image: url("https://seeklogo.com/images/N/nba-logo-59F0731E03-seeklogo.com.png");
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-color: SeaShell;
+      text-align: center;
+      background-size: 50%;
+      }
+    h1 {
+        text-shadow: 2px 2px white;
+        color: black;
+        
+    }
+    h2 {
+        text-shadow: 2px 2px white;
+        color: black;
+        
+    }
+    table {
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+  </style>
+    <div class='row' style='text-align:center;'>
+    <br><br>
+      <h1>NBA Tweets Search System</h1>
+      <h2>Please Enter Player Name or Team Name (CASE SENSITIVE!)</h2>
+            <form action="." method="POST">
+              <input type="text" name="searchInput">
+                <input type="submit" name="my-form" value="Search">
+            </form>
+            <p>The total number of mentions in tweets is:  {{a}} </p >
+
+            <table>
+               <p>Player Statistics: </p >
+           {% for table in tables %}
+            {{ table|safe }}
+          {% endfor %}
+           </table>
+    </div>
+    </body>
+  </html>
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
