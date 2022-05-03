@@ -14,7 +14,7 @@ Any other questions feel free to email me at jonah.shaver@columbia.edu
 
 
 
-![Example1](/examples/example 1.png)
+![Example1](examples/example 1.png)
 
 
 
